@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7644835D281F00D90019075F /* ButtonAktion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7644835C281F00D90019075F /* ButtonAktion.swift */; };
 		76ED4809281EDEE700A146C1 /* SwiftUITrafficlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED4808281EDEE700A146C1 /* SwiftUITrafficlightsApp.swift */; };
 		76ED480B281EDEE700A146C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED480A281EDEE700A146C1 /* ContentView.swift */; };
 		76ED480D281EDEE800A146C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ED480C281EDEE800A146C1 /* Assets.xcassets */; };
 		76ED4810281EDEE800A146C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ED480F281EDEE800A146C1 /* Preview Assets.xcassets */; };
+		76ED4817281EDF0600A146C1 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED4816281EDF0600A146C1 /* ColorCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7644835C281F00D90019075F /* ButtonAktion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAktion.swift; sourceTree = "<group>"; };
 		76ED4805281EDEE700A146C1 /* SwiftUITrafficlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITrafficlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76ED4808281EDEE700A146C1 /* SwiftUITrafficlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITrafficlightsApp.swift; sourceTree = "<group>"; };
 		76ED480A281EDEE700A146C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76ED480C281EDEE800A146C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76ED480F281EDEE800A146C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76ED4816281EDF0600A146C1 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				76ED4808281EDEE700A146C1 /* SwiftUITrafficlightsApp.swift */,
 				76ED480A281EDEE700A146C1 /* ContentView.swift */,
+				76ED4816281EDF0600A146C1 /* ColorCircleView.swift */,
+				7644835C281F00D90019075F /* ButtonAktion.swift */,
 				76ED480C281EDEE800A146C1 /* Assets.xcassets */,
 				76ED480E281EDEE800A146C1 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76ED4817281EDF0600A146C1 /* ColorCircleView.swift in Sources */,
 				76ED480B281EDEE700A146C1 /* ContentView.swift in Sources */,
 				76ED4809281EDEE700A146C1 /* SwiftUITrafficlightsApp.swift in Sources */,
+				7644835D281F00D90019075F /* ButtonAktion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
